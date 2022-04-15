@@ -7,63 +7,29 @@ import potholders from '../../images/potholders.svg'
 import './Merit.css'
 
 
+const card = [
+  {id: 1, title: 'Самые свежие ингридиенты', src: kurasan},
+  {id: 2, title: 'Более 5 лет на рынке', src: five },
+  {id: 3, title: 'Быстрая доставка', src: truck},
+  {id: 4, title: 'Выпечка ручной работ', src: potholders}
+]
+
+
 export default function Merit() {
   return (
-    <Container fluid className='mt-4'>
+    <Container className='mt-4'>
       <Row>
-        <Col> 
-          <Figure className='MeritConteiner'>
-            <Figure.Image
-              className='MeritIcon'
-              alt="Error"
-              src={kurasan}/>
-            <Figure.Caption className='MeritPage text-center'>
-              Самые свежие ингридиенты
-            </Figure.Caption>
-          </Figure> 
-        </Col>
-
-
-
-        <Col>
-          <Figure className='MeritConteiner'>
-            <Figure.Image
-              className='MeritIcon'
-              alt="Error"
-              src={five}/>
-            <Figure.Caption className='MeritPage text-center'>
-              Более 5 лет на рынке
-            </Figure.Caption>
-          </Figure>
-        </Col>
-
-
-
-        <Col>
-          <Figure className='MeritConteiner'>
-            <Figure.Image
-              className='MeritIcon'
-              alt="Error"
-              src={truck}/>
-            <Figure.Caption className='MeritPage text-center'>
-              Быстрая доставка
-            </Figure.Caption>
-          </Figure>
-        </Col>
-
-
-
-        <Col>
-          <Figure className='MeritConteiner'>
-            <Figure.Image
-              className='MeritIcon'
-              alt="Error"
-              src={potholders}/>
-            <Figure.Caption className='MeritPage text-center'>
-              Выпечка ручной работ
-            </Figure.Caption>
-          </Figure>
-        </Col>
+        {card.map(({ id, title, src }) => (
+          <Col key={id} md={3} xs={6}> 
+            <Figure className='MeritConteiner'>
+              <Figure.Image
+                className='MeritIcon'
+                alt="Error"
+                src={src}/>
+              <Figure.Caption className='MeritPage text-center'>{title}</Figure.Caption>
+            </Figure> 
+          </Col>
+        ))}
       </Row>
     </Container>
   )
