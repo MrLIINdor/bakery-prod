@@ -21,7 +21,7 @@ class CarouselImag extends Component{
                     <Carousel.Caption className='d-flex flex-column align-items-start mb-5'>
                         <h5 className='Title fs-1 text-nowrap'>Pani Provance</h5>
                         <p className='text-start w-75'>The hottes pastries you  have ever seen</p>
-                        <Button className='btn BtnCatalog'>Контакт</Button>
+                        {/* <Button className='btn BtnCatalog'>Контакт</Button> */}
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
