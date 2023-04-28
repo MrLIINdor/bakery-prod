@@ -12,7 +12,6 @@ const card = [
   {id: 2, title: 'Более 5 лет на рынке', src: five },
   {id: 3, title: 'Быстрая доставка', src: truck},
   {id: 4, title: 'Выпечка ручной работ', src: potholders},
-  {id: 4, title: 'Выпечка ручной работ', src: potholders},
 ]
 
 
