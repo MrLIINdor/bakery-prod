@@ -1,36 +1,28 @@
-.BtnCatalog{
-    color: #fff;
-    background-color: #F2BC79 !important;
-    cursor: pointer;
-    font-weight: 500 !important;
-    transition: 0.4s !important;
-    border-radius: 0.375em !important;
-    padding: 1vh 8vh !important;
-    border: 0.2vh solid #F2BC79 !important;
+.BtnCatalog {
+  color: #fff;
+  background-color: #f2bc79 !important;
+  cursor: pointer;
+  font-weight: 500 !important;
+  transition: 0.4s !important;
+  border-radius: 0.375em !important;
+  padding: 1vh 8vh !important;
+  border: 0.2vh solid #f2bc79 !important;
 }
 
-.BtnCatalog:hover{
-    color: #F2BC79 !important;
-    background-color: #fff !important;
-
+.BtnCatalog:hover {
+  color: #f2bc79 !important;
+  background-color: #fff !important;
 }
 
-
-.Carousel{
-    box-shadow: 0px 1.04vh 1.55vh 0px hsla(206, 40%, 22%, 0.2);
+.Carousel {
+  box-shadow: 0px 1.04vh 1.55vh 0px hsla(206, 40%, 22%, 0.2);
 }
 
-
-.imgesa{
-    height: 65vh;
-    object-fit: cover;
+.imgesa {
+  height: 65vh;
+  object-fit: cover;
 }
 
-
-.Title{
-    font-weight: 800;
+.TitleCarisel {
+  font-weight: 800;
 }
-
-/* .Parag{
-    font-size: 2vh;
-} */

@@ -1,0 +1,38 @@
+.ConteinerContact {
+  padding: 0 calc((72vw - 1000px) / 2);
+  margin: 0;
+}
+
+.MapConteiner {
+  margin: 3vh 1.8vh;
+  display: flex;
+}
+
+.PageConteiner {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 1023px) {
+  .MapConteiner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .Ymap {
+    width: 100%;
+  }
+}
+
+.Adders {
+  font-size: 3.2vh;
+  font-family: Caveat;
+}
+
+.TitleMap {
+  margin: 0;
+  margin: 3vh 1.8vh;
+}

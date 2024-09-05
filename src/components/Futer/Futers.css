@@ -1,0 +1,82 @@
+.Futer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  flex-wrap: nowrap;
+  background: #f4f4f4;
+}
+
+.LogoFuter {
+  height: 11.5vh;
+  width: 14vh;
+  margin-left: 0.4vh;
+}
+
+.Way {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 1vh 0.6vh;
+}
+
+.ArtIcons {
+  height: 4vh;
+  width: 4vh;
+}
+
+.IconsPhone {
+  margin-right: 1vh;
+  height: 2.2vh;
+  width: 2.2vh;
+}
+
+.SocialNetwork {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 0 0.2vh;
+}
+
+.SocialBlock {
+  display: flex;
+  margin: 2.6vh 1vh 2.6vh 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.PagesCall {
+  margin: 0;
+  font-size: 2vh;
+}
+
+.PagesTime {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.8vh;
+  text-align: center;
+  margin: 0;
+}
+
+.PagesBlock {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.Pages {
+  font-size: 1.8vh;
+  margin: 0;
+}
+
+.PagesRights {
+  margin: 0;
+  font-size: 1.4vh;
+}
+
+.PagesEmail {
+  font-size: 1.8vh;
+  margin-bottom: 5vh;
+}

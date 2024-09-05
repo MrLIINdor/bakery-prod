@@ -1,0 +1,76 @@
+.P1 {
+  font-size: 5.2vh;
+  letter-spacing: 1vh;
+  font-weight: 700;
+}
+
+.Kurasans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3vh 0;
+  height: 36vh;
+  background-image: url(../../images/bg_kurasan.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ContenerCatalog {
+  margin: 0;
+  padding: 0 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.Card {
+  border-radius: 2vh;
+  height: 30vh;
+  margin: 3.5vh 1vh;
+  background: #272727;
+  color: #fff;
+  box-shadow: 0px 0.51vh 1.55vh 0.2vh #223c5033;
+}
+
+.Img {
+  height: 24vh;
+  width: 40vh;
+  border-radius: 2vh 2vh 0 0;
+}
+
+.Page {
+  cursor: pointer;
+  width: 40%;
+  text-align: center;
+  font-size: 2.6vh;
+  font-weight: 500;
+  margin: auto;
+  margin-top: 0.5vh;
+  position: relative;
+}
+
+.Page:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -0.3vh;
+  width: 0;
+  height: 0.2vh; /* Высота линии */
+  background-color: #fff; /* Цвет подчеркивания при исчезании линии*/
+  transition: width 0.5s; /* Время эффекта */
+}
+
+.Page:hover:after {
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -0.3vh;
+  height: 0.2vh; /* Высота линии */
+  background-color: #f2bc79; /* Цвет подчеркивания при появлении линии*/
+  transition: width 0.5s; /* Время эффекта */
+}
